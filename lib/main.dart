@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
         print('internet speed');
       }
     } on SocketException catch (_) {
-      print('not connected');
+      print('not connected to internet');
     }
   }
 
